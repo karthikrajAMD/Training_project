@@ -1,0 +1,133 @@
+/* .container {
+  margin: 0 !important;
+}
+
+.login-container {
+  border: 1px solid black;
+  padding: 0%;
+  height: 100vh;
+  display: flex;
+}
+.employee-log-in {
+  padding: 5px;
+  display: flex;
+  height: max-content;
+  flex-direction: column;
+  margin: auto 20px;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.modal-form form div {
+  display: flex;
+  justify-content: space-between;
+} */
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dotted rgba(115, 0, 255, 0.866);
+  border-bottom: 1px dotted rgba(115, 0, 255, 0.866);
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.title-modal {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgba(115, 0, 255, 0.866);
+}
+.which-page {
+  font-family: serif;
+  font-weight: bold;
+  color: rgba(115, 0, 255, 0.866);
+}
+.form-login,
+.form-signup {
+  width: 350px;
+  box-shadow: 1px 2px 20px 1px black;
+  /* height: 350px; */
+}
+@media (max-width: 500px) {
+  .form-login,
+  .form-signup {
+    width: 300px;
+  }
+}
+.form-login .input-tag {
+  display: flex;
+  flex-direction: column;
+}
+.form-signup .input-tag {
+  display: flex;
+  flex-direction: column;
+}
+.input-tag {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  color: rgba(115, 0, 255, 0.838);
+  right: 2px;
+  bottom: 8px;
+}
+.eye-icon:hover {
+  cursor: pointer;
+}
+.sign-up-button {
+  width: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(115, 0, 255, 0.668);
+  color: wheat;
+  padding: 5px;
+  margin-top: 10px;
+  transition: all 0.1s;
+}
+.sign-up-button:hover {
+  background-color: rgba(115, 0, 255, 0.838);
+}
+
+.sign-up-button:focus {
+  outline: none;
+  box-shadow: 1px 2px 10px 2px purple;
+}
+
+/* .placeholder-label {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  padding: 0px 5px;
+  transition: top 0.2s;
+}
+
+.form-login input:focus + .placeholder-label {
+  top: -50px;
+} */
+.form-login label,
+.form-signup label {
+  color: rgba(115, 0, 255, 0.866);
+  text-shadow: 1px 1px 1px rgb(56, 0, 124);
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.form-login input,
+.form-signup input {
+  height: 40px;
+  color: rgb(115, 0, 255);
+
+  background-color: rgb(200 170 235 / 62%);
+  padding-left: 2px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid purple;
+}
+.form-login input:focus {
+  outline: none;
+  /* box-shadow: 1px solid green; */
+}

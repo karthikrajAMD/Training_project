@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.head {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.logo {
+  margin: 28px 0px 10px 30px;
+}
+.my-heading {
+  color: rgb(8, 4, 90);
+}
+.sidebar {
+  width: 15%;
+  height: 100%;
+  background: linear-gradient(#19105b, #472067, #7c3375, #ff6196) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.content {
+  width: 85%;
+  height: 100%;
+  padding: 10px;
+}
+.alloc-sec {
+  width: 100%;
+}
+.alloc-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(8, 4, 90);
+  color: white;
+  height: 35px;
+  padding: 10px;
+  font-size: 16px;
+  align-items: center;
+  font-weight: bold;
+}
+.alloc1-content {
+  display: none;
+}
+.alloc1-content table {
+  width: 100%;
+}
+table {
+  font-size: 14px;
+}
+.alloc1-content table,
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.alloc-content2 table,
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.alloc-content2 {
+  width: 100%;
+  /* overflow-x: scroll; */
+}
+.collapsible {
+  cursor: pointer;
+}
+thead {
+  background-color: #ffe5ee !important;
+  height: 10px;
+}
+table tbody tr {
+  border-bottom: 1px solid rgba(128, 127, 127, 0.486);
+}
+.sidebar-content {
+  margin-right: 30px;
+}
+.sidebar-content ul li {
+  margin-left: 0;
+  list-style-type: none;
+  line-height: 2rem;
+  color: white;
+}
+.cust-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-icon {
+  display: flex;
+  align-items: center;
+}
+.menu-drop-down,
+.menu-drop-down2,
+.menu-drop-down3 {
+  cursor: pointer;
+}
+.option-content,
+.option-content2,
+.option-content3 {
+  display: none;
+}
+
+.option-content div p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.option-content2 div,
+.option-content3 div,
+.option-content div {
+  border-radius: 10px;
+  background-color: white;
+  padding: 5px;
+  box-shadow: 1px 2px 10px black;
+  min-width: 100px;
+  background-color: rgba(24, 15, 204, 0.555);
+}
+.option-content2 div p,
+.option-content3 div p {
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+.option-content p:hover,
+.option-menu2 p:hover,
+.option-menu3 p:hover {
+  cursor: pointer;
+  background-color: rgb(20, 10, 228);
+}
+
+.alloc-sec2 {
+  margin-top: 10px;
+}
+
+@media (max-width: 922px) {
+  .alloc-content2 {
+    overflow-x: scroll;
+  }
+}
+@media (max-width: 922px) {
+  .alloc1-content {
+    overflow-x: scroll;
+  }
+}
+.req-button {
+  margin-top: 5px;
+  background-color: #ff6196;
+  text-decoration: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 20;
+}
+
+.req {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.activity {
+  width: 150px;
+}
+.input_box {
+  width: 60px;
+}
+#comment {
+  width: 80px;
+}
+.plus:hover {
+  cursor: pointer;
+}
+.addMinusIcon:hover {
+  cursor: pointer;
+}
+.add_minus {
+  display: flex;
+}
+.logout {
+  color: white;
+  margin-bottom: 20px;
+  padding-left: 2rem;
+  margin-right: 30px;
+  font-weight: bold;
+}
+.logout:hover {
+  cursor: pointer;
+}
+.sidebar-content ul li:hover {
+  cursor: pointer;
+}

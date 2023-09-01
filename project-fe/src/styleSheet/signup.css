@@ -1,0 +1,155 @@
+/* .which-page {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--third-color);
+  filter: drop-shadow(1px 2px 1px var(--first-color));
+  font-family: "Courier New", Courier, monospace;
+}
+.signup {
+  color: var(--third-color);
+  filter: drop-shadow(1px 2px 1px var(--first-color));
+}
+.signup:hover,
+.signup:focus {
+  color: var(--first-color);
+}
+
+.visibility-icon:hover {
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(192, 36, 8);
+}
+
+
+.employee-sign-up {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  padding: 15px;
+  border: 1px solid var(--second-color);
+  background-color: var(--second-color);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px var(--first-color);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.modal-form * {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .employee-sign-up {
+    width: 380px;
+  }
+}
+.popup-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-modal {
+  letter-spacing: 0.15em;
+  font-family: serif;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 1px #6b06c3, -1px 0 #070386, -1px 2px #6b06c3, -2px 1px #070386,
+    -2px 3px #6b06c3, -3px 2px #070386, -3px 4px #6b06c3, -4px 3px #070386,
+    -4px 5px #6b06c3, -5px 4px #070386, -5px 6px #6b06c3, -6px 5px #070386,
+    -6px 7px #6b06c3, -7px 6px #070386, -7px 8px #6b06c3, -8px 7px #070386;
+  filter: drop-shadow(2px 2px 1px var(--first-color));
+}
+.modal-form > form label {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace, serif;
+  font-weight: bold;
+  color: var(--third-color);
+  filter: drop-shadow(2px 2px 1px var(--first-color));
+}
+.modal-form > form p {
+  color: rgb(192, 36, 8);
+}
+
+.modal-form > form > div {
+  display: flex;
+  flex-direction: column;
+}
+.modal-form > form input::placeholder {
+  font-size: 16px;
+  opacity: 0.7;
+}
+.modal-form > form {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid var(--first-color);
+}
+.modal-form form input {
+  border: 2px solid var(--first-color);
+  color: #6b06c3;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: var(--third-color);
+}
+.modal-form form input:focus {
+  outline: none;
+  box-shadow: 0 0 10px var(--third-color);
+  border: 2px solid var(--second-color);
+}
+.popup-close {
+  color: var(--first-color);
+  filter: drop-shadow(1px 1px 1px var(--third-color));
+}
+.modal-form form div p {
+  margin-bottom: 0;
+}
+.model-footer > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.model-footer div button {
+  width: 100px;
+}
+.model-footer div button:focus {
+  outline: none;
+  box-shadow: 0 0 5px var(--third-color);
+  border: 1px solid var(--third-color);
+}
+.close-button {
+  width: 100px;
+  height: 100;
+  color: var(--third-color);
+  font-size: 20px;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.close-button:hover {
+  background-color: rgb(103, 103, 103);
+}
+
+.sign-up-button {
+  width: 100px;
+  height: 100;
+  color: var(--second-color);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: var(--third-color);
+  border: 1px solid var(--first-color);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+}
+.sign-up-button:hover {
+  background-color: rgba(115, 0, 255, 0.668);
+  color: var(--third-color);
+} */
